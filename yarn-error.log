@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn start
+  /usr/local/bin/node /usr/local/bin/yarn add --dev gh-pages
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/bberg/PycharmProjects/buildspace-nft-course-starter/node_modules/.bin
@@ -14,7 +14,7 @@ Platform:
   darwin arm64
 
 Trace: 
-  SyntaxError: /Users/bberg/PycharmProjects/buildspace-nft-course-starter/package.json: Unexpected token } in JSON at position 649
+  SyntaxError: /Users/bberg/PycharmProjects/buildspace-nft-course-starter/package.json: Unexpected token } in JSON at position 688
       at JSON.parse (<anonymous>)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -39,11 +39,12 @@ npm manifest:
     },
     "homepage": "http://bowtiedpronghorn.github.io/buildspace-nft-course-starter",
     "scripts": {
+      "predeploy": "yarn run build",
+      "deploy": "gh-pages -d build",
       "start": "react-scripts start",
       "build": "react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
-      "predeploy": "yarn start",
     },
     "eslintConfig": {
       "extends": [
