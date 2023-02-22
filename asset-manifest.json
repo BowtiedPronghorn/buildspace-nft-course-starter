@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/buildspace-nft-course-starter/static/css/main.9cd6ed12.chunk.css",
+    "main.js": "/buildspace-nft-course-starter/static/js/main.3552cffe.chunk.js",
+    "main.js.map": "/buildspace-nft-course-starter/static/js/main.3552cffe.chunk.js.map",
+    "runtime-main.js": "/buildspace-nft-course-starter/static/js/runtime-main.c9d2a477.js",
+    "runtime-main.js.map": "/buildspace-nft-course-starter/static/js/runtime-main.c9d2a477.js.map",
+    "static/js/2.3ca821fd.chunk.js": "/buildspace-nft-course-starter/static/js/2.3ca821fd.chunk.js",
+    "static/js/2.3ca821fd.chunk.js.map": "/buildspace-nft-course-starter/static/js/2.3ca821fd.chunk.js.map",
+    "index.html": "/buildspace-nft-course-starter/index.html",
+    "static/css/main.9cd6ed12.chunk.css.map": "/buildspace-nft-course-starter/static/css/main.9cd6ed12.chunk.css.map",
+    "static/js/2.3ca821fd.chunk.js.LICENSE.txt": "/buildspace-nft-course-starter/static/js/2.3ca821fd.chunk.js.LICENSE.txt",
+    "static/media/twitter-logo.a8a75254.svg": "/buildspace-nft-course-starter/static/media/twitter-logo.a8a75254.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9d2a477.js",
+    "static/js/2.3ca821fd.chunk.js",
+    "static/css/main.9cd6ed12.chunk.css",
+    "static/js/main.3552cffe.chunk.js"
+  ]
+}
