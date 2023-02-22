@@ -15,9 +15,9 @@
   },
   "homepage": "http://bowtiedpronghorn.github.io/buildspace-nft-course-starter",
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
